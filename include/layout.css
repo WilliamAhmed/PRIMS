@@ -1,0 +1,166 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Apr-2016, 19:17:39
+    Author     : William
+*/
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+a{
+    text-decoration:none;
+    color: #333;
+}
+
+body{
+    font-family: Arial;
+    background-color: #EEE;
+}
+
+nav{
+    font-size: 14pt;
+}
+
+nav ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+}
+
+nav ul li{
+    float: right;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: #AAA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 3px solid #333;
+}
+
+nav ul li a:hover{
+    background-color: #3D3D3D;
+    border-bottom-color: #7CC6E6;
+    color: #7CC6E6;
+}
+
+#welcomeSign{
+    float:left;
+}
+
+#menu_logo{
+    display: inline-block;
+    padding: 0;
+    height: 53px;
+    width: 100px;
+}
+
+#pageHeader{
+    margin: 6px 0px 0px 10px;
+    
+}
+
+#pageTitle{
+    color: #666;
+    padding: 14px 16px;
+    font-size: 24pt;
+}
+
+#pageTitle img{
+    height: 60px;
+}
+
+
+.dataHeading{
+    padding: 10px 12px;
+    font-size: 14pt;
+    text-align: center;
+    margin:0;
+}
+
+.dataRow{
+    text-align: center;
+    border-top: 1px solid #666;
+    font-size: 12pt;
+}
+
+.dataRow:hover{
+    background-color: #7CC6E6;
+}
+
+#loginForm{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 5px;
+    background-color: #777;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+#loginForm img{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+
+#loginField{
+    font-size: 16pt;
+    margin:10px;
+    width: 250px;
+    border: 1px solid #AAA;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#loginButton{
+    font-size: 16pt;
+    width: 250px;
+    margin: 5px;
+    border: 1px solid #AAA;
+    width: 90%;
+    margin-left: 5%;
+}
+
+#buttonSet{
+    margin: 20px 5px 5px 20px;
+}
+
+#buttonSet input{
+    margin: 3px;
+}
+
+#createForm{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#updateForm{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.dataLabel{
+    font-size: 16pt;
+    display: inline-block;
+}
+
+.formInput{
+    font-size: 16pt;
+    border: 1px solid #AAA;
+    float: right;
+    width: 40%;
+    display: inline-block;
+    border-radius: 5px;
+}
